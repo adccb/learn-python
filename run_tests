@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+
+from subprocess import call
+call(["python3", "-m", "unittest"])
