@@ -7,7 +7,7 @@ class TestStack(unittest.TestCase):
         s = Stack()
 
         s.push("hello")
-        self.assertEquals(
+        self.assertEqual(
             "hello",
             s.pop()
         )
