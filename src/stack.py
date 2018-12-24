@@ -1,9 +1,10 @@
 class Stack():
+    array = []
     def push(self, data):
-        pass
-
+        self.array.append(data)
     def pop(self):
-        pass
-
+        m = self.array[-1]
+        del self.array[-1]
+        return m
     def to_array(self):
-        pass
+        return self.array
